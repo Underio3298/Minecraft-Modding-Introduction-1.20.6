@@ -3,20 +3,24 @@
 	"id": "mcmi",
 	"version": "${version}",
 	"name": "MCMI",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "1.20.6 Minecraft Mod for learning",
 	"authors": [
-		"Me!"
+		"under"
 	],
 	"contact": {
+		"discord": "underio",
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Underio3298/Minecraft-Modding-Introduction-1.20.6"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/mcmi/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.underio.mcmi.MCMI"
+		],
+		"client": [
+			"net.underio.mcmi.MCMIClient"
 		],
 		"fabric-datagen": [
 			"net.underio.mcmi.MCMIDataGenerator"
