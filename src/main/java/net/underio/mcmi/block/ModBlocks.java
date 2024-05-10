@@ -14,7 +14,7 @@ import net.underio.mcmi.MCMI;
 public class ModBlocks {
 
   public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-      new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+      new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
 
   public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
       new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
