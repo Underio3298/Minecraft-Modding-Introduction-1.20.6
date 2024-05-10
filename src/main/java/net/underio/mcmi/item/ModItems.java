@@ -23,7 +23,7 @@ public class ModItems {
     return Registry.register(Registries.ITEM, new Identifier(MCMI.MOD_ID, name), item);
   }
 
-  public static void RegisterModItems() {
+  public static void registerModItems() {
     MCMI.LOGGER.info("Registering mod items for " + MCMI.MOD_ID);
 
     ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);

@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.underio.mcmi.MCMI;
+import net.underio.mcmi.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -17,11 +18,13 @@ public class ModItemGroups {
       .entries((context, entries) -> {
         entries.add(ModItems.RUBY);
         entries.add(ModItems.RAW_RUBY);
+        entries.add(ModBlocks.RUBY_BLOCK);
       })
       .build();
 
   public static void registerItemGroups() {
     MCMI.LOGGER.info("Registering Item Groups for " + MCMI.MOD_ID);
     Registry.register(Registries.ITEM_GROUP, new Identifier("mcmi", "ruby_group"), RUBY_GROUP);
+    MCMI.LOGGER.info("Done Registering Item Groups for " + MCMI.MOD_ID);
   }
 }
