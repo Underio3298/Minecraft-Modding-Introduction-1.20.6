@@ -1,3 +1,6 @@
 {
-  "item.mcmi.ruby": "Ruby"
+  "item.mcmi.ruby": "Ruby",
+  "item.mcmi.raw_ruby": "Raw Ruby",
+  "itemgroup.raw_ruby": "Ruby Group"
+  
 }

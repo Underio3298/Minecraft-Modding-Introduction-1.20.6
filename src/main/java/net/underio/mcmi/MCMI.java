@@ -1,6 +1,7 @@
 package net.underio.mcmi;
 
 import net.fabricmc.api.ModInitializer;
+import net.underio.mcmi.item.ModItemGroups;
 import net.underio.mcmi.item.ModItems;
 
 import org.slf4j.Logger;
@@ -13,6 +14,8 @@ public class MCMI implements ModInitializer {
   @Override
   public void onInitialize() {
     ModItems.RegisterModItems();
+
+    ModItemGroups.registerItemGroups();
     LOGGER.info(MOD_ID + " has been initialized!");
   }
 }
