@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mcmi:block/raw_ruby_block"
+    }
+  }
+}

@@ -3,6 +3,7 @@
   "item.mcmi.raw_ruby": "Raw Ruby",
 
   "block.mcmi.ruby_block": "Block of Ruby",
+  "block.mcmi.raw_ruby_block": "Block of Raw Ruby",
 
   "itemgroup.raw_ruby": "Ruby Group"
   
