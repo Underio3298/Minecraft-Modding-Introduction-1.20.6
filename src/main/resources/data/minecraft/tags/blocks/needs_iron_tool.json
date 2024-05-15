@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "mcmi:ruby_block",
-    "mcmi:raw_ruby_block"
+    "mcmi:raw_ruby_block",
+    "mcmi:ruby_ore"
   ]
 }

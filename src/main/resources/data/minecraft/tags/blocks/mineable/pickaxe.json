@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "mcmi:ruby_block",
-    "mcmi:raw_ruby_block"
+    "mcmi:raw_ruby_block",
+    "mcmi:ruby_ore",
+    "mcmi:deepslate_ruby_ore",
+    "mcmi:nether_ruby_ore",
+    "mcmi:end_stone_ruby_ore"
   ]
 }
